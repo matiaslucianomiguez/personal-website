@@ -1,0 +1,58 @@
+// Personalización de la Grilla del Sitio Web
+
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav main"
+        "footer footer";
+    grid-template-columns: 20% 80%;  
+}
+
+header {
+    background-color: aliceblue;
+    border: solid black 1px;
+    grid-area: header;
+}
+
+main {
+    background-color: aliceblue;
+    border: solid black 1px;
+    grid-area: main;
+}
+
+footer {
+    background-color: aliceblue;
+    border: solid black 1px;
+    grid-area: footer;
+}
+
+// Personalización de la Barra de Navegación
+
+nav {
+    background-color: aliceblue;
+    border: solid black 1px;
+    text-align: left;
+    padding-left: 40px;
+    grid-area: nav;
+}
+
+.nav-link{
+    color: black;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 20px;
+    text-decoration: solid black 10px;
+        
+    &:hover {
+        transform: scale(1.2);
+    }
+
+}
+
+.navbar-expand-lg {
+    display: flex;
+    
+    .navbar-nav {
+        flex-direction: column;
+    }
+}

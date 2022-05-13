@@ -1,0 +1,29 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/compiler-archive.scss css/main-stylesheet.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiaslucianomiguez/personal-website.git"
+  },
+
+  "author": "Matias Luciano Miguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiaslucianomiguez/personal-website/issues"
+  },
+
+  "homepage": "https://github.com/matiaslucianomiguez/personal-website#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

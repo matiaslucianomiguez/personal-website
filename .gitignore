@@ -1,4 +1,3 @@
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
+# Listado de Archivos y Carpetas que "NODE.JS" Debe Ignorar en el Proceso de Compilado
+
+node_modules/
