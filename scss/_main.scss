@@ -1,0 +1,27 @@
+main {
+    grid-area: main;
+    border: 1px solid white;
+}
+
+h3 {
+    font-family: $hand-mayus-font;
+    color: $nav-link-font-color;
+    font-size:medium;
+    text-align: right;
+    margin-top: 25px;
+    margin-bottom: 25px;  
+}
+
+.div-about-me {
+    display: flex;
+}
+
+.p_about_me {
+    display: inline-block;
+    font-family: $hand-thin-font;
+    letter-spacing: 2px;
+    color: $p-text-color;
+    font-size: medium;
+    text-align: justify;
+    line-height: 200%;
+}

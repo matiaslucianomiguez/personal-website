@@ -1,0 +1,29 @@
+header {
+    grid-area: header;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid white;
+
+    div {
+        
+    }
+}
+
+h1 {
+    font-family: $hand-mayus-font;
+    color: aquamarine;
+    text-align: center;
+}
+
+h2 {
+    font-family: $hand-thin-font;
+    letter-spacing: 2px;
+    color:antiquewhite;
+    text-align: center;
+}
+
+.personal-photo-header {
+    display: inline-block;
+    height: 200px;
+}

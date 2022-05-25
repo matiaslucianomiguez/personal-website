@@ -1,39 +1,58 @@
 body {
   display: grid;
-  grid-template-areas: "header header" "nav main" "footer footer";
-  grid-template-columns: 20% 80%; }
+  grid-template-areas: "header header header header header header header header header header" "nav nav nav nav nav nav nav nav nav nav" "main main main main main main main main main main" "footer footer footer footer footer footer footer footer footer footer";
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  background-color: black;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 1px solid white; }
 
 header {
-  background-color: aliceblue;
-  border: solid black 1px;
-  grid-area: header; }
+  grid-area: header;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  border: 1px solid white; }
+
+h1 {
+  font-family: "Rock Salt", cursive;
+  color: aquamarine;
+  text-align: center; }
+
+h2 {
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 2px;
+  color: antiquewhite;
+  text-align: center; }
+
+.personal-photo-header {
+  display: inline-block;
+  height: 200px; }
 
 main {
-  background-color: aliceblue;
-  border: solid black 1px;
-  grid-area: main; }
+  grid-area: main;
+  border: 1px solid white; }
+
+h3 {
+  font-family: "Rock Salt", cursive;
+  color: burlywood;
+  font-size: medium;
+  text-align: right;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.div-about-me {
+  display: flex; }
+
+.p_about_me {
+  display: inline-block;
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 2px;
+  color: antiquewhite;
+  font-size: medium;
+  text-align: justify;
+  line-height: 200%; }
 
 footer {
-  background-color: aliceblue;
-  border: solid black 1px;
-  grid-area: footer; }
-
-nav {
-  background-color: aliceblue;
-  border: solid black 1px;
-  text-align: left;
-  padding-left: 40px;
-  grid-area: nav; }
-
-.nav-link {
-  color: black;
-  font-family: 'Metrophobic', sans-serif;
-  font-size: 20px;
-  text-decoration: solid black 10px; }
-  .nav-link:hover {
-    transform: scale(1.2); }
-
-.navbar-expand-lg {
-  display: flex; }
-  .navbar-expand-lg .navbar-nav {
-    flex-direction: column; }
+  grid-area: footer;
+  border: 1px solid white; }

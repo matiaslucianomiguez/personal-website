@@ -1,0 +1,10 @@
+nav {
+    grid-area: nav;
+    margin-bottom: 50px;
+    border: 1px solid white;
+}
+
+.nav-link {
+    font-family: $hand-mayus-font;
+    color: $nav-link-font-color;
+}
