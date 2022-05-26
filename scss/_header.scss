@@ -3,11 +3,7 @@ header {
     margin-top: 50px;
     margin-bottom: 20px;
     display: flex;
-    border: 1px solid white;
-
-    div {
-        
-    }
+    // border: 1px solid white;
 }
 
 h1 {
@@ -26,4 +22,6 @@ h2 {
 .personal-photo-header {
     display: inline-block;
     height: 200px;
+    margin-left: 20px;
+    margin-right: 25px;
 }

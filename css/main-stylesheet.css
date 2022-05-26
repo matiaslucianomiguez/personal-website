@@ -4,15 +4,13 @@ body {
   grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   background-color: black;
   margin-left: 25px;
-  margin-right: 25px;
-  border: 1px solid white; }
+  margin-right: 25px; }
 
 header {
   grid-area: header;
   margin-top: 50px;
   margin-bottom: 20px;
-  display: flex;
-  border: 1px solid white; }
+  display: flex; }
 
 h1 {
   font-family: "Rock Salt", cursive;
@@ -27,11 +25,12 @@ h2 {
 
 .personal-photo-header {
   display: inline-block;
-  height: 200px; }
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 25px; }
 
 main {
-  grid-area: main;
-  border: 1px solid white; }
+  grid-area: main; }
 
 h3 {
   font-family: "Rock Salt", cursive;
@@ -41,11 +40,7 @@ h3 {
   margin-top: 25px;
   margin-bottom: 25px; }
 
-.div-about-me {
-  display: flex; }
-
-.p_about_me {
-  display: inline-block;
+h4 {
   font-family: "Shadows Into Light", cursive;
   letter-spacing: 2px;
   color: antiquewhite;
@@ -53,6 +48,42 @@ h3 {
   text-align: justify;
   line-height: 200%; }
 
+h5 {
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 2px;
+  color: antiquewhite;
+  font-size: medium;
+  text-align: justify;
+  line-height: 200%; }
+
+.div-about-me {
+  display: flex; }
+
+.p_about_me {
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 2px;
+  color: antiquewhite;
+  font-size: medium;
+  text-align: justify;
+  line-height: 200%; }
+
+.div-education {
+  margin-left: 50px; }
+  .div-education div {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+.social-network {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-evenly; }
+  .social-network img {
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    margin-right: 25px; }
+
 footer {
-  grid-area: footer;
-  border: 1px solid white; }
+  grid-area: footer; }
